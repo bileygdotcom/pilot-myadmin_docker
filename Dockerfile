@@ -1,8 +1,8 @@
 ARG BASE_IMAGE="bileyg/packhaus"
-ARG TAG="0.5"
+ARG TAG="dryweight"
 FROM ${BASE_IMAGE}:${TAG}
 LABEL project="Pilot-myAdmin"\
-      version="0.5" \
+      version="dryweight" \
       mantainer="bileyg"\
       company="Ascon Complex"
 COPY ["build","/root/.wine/drive_c/Program Files/ASCON/Pilot-myAdmin"]
